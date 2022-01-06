@@ -1,0 +1,60 @@
+.space {
+    padding: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    p {
+        color: black;
+    }
+    hr {
+        margin: 0;
+        padding: 0;
+    }
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        text-align: center;
+    }
+}
+
+.background {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: inline;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    height: 10vh;
+}
+
+.name {
+    color: blue;
+    font-weight: bold;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.rounded-circle {
+    padding: 10px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
